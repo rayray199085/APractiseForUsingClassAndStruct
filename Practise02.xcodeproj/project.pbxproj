@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0DC07B5A21FAC3D200841A7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC07B5921FAC3D200841A7B /* main.m */; };
+		0DC07B6221FAC3E400841A7B /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC07B6121FAC3E400841A7B /* Human.m */; };
+		0DC07B6521FAC42E00841A7B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC07B6421FAC42E00841A7B /* Student.m */; };
+		0DC07B6821FAC45A00841A7B /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC07B6721FAC45A00841A7B /* Book.m */; };
+		0DC07B6C21FAC98400841A7B /* Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC07B6B21FAC98400841A7B /* Date.m */; };
+		0DC07B8C21FAF2AE00841A7B /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC07B8B21FAF2AE00841A7B /* Author.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		0DC07B5621FAC3D200841A7B /* Practise02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Practise02; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC07B5921FAC3D200841A7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DC07B6021FAC3E400841A7B /* Human.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		0DC07B6121FAC3E400841A7B /* Human.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		0DC07B6321FAC42E00841A7B /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0DC07B6421FAC42E00841A7B /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		0DC07B6621FAC45A00841A7B /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		0DC07B6721FAC45A00841A7B /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		0DC07B6921FAC8C000841A7B /* Gender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gender.h; sourceTree = "<group>"; };
+		0DC07B6A21FAC98400841A7B /* Date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		0DC07B6B21FAC98400841A7B /* Date.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Date.m; sourceTree = "<group>"; };
+		0DC07B8A21FAF2AE00841A7B /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		0DC07B8B21FAF2AE00841A7B /* Author.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				0DC07B5921FAC3D200841A7B /* main.m */,
+				0DC07B6021FAC3E400841A7B /* Human.h */,
+				0DC07B6121FAC3E400841A7B /* Human.m */,
+				0DC07B6321FAC42E00841A7B /* Student.h */,
+				0DC07B6421FAC42E00841A7B /* Student.m */,
+				0DC07B6621FAC45A00841A7B /* Book.h */,
+				0DC07B6721FAC45A00841A7B /* Book.m */,
+				0DC07B6921FAC8C000841A7B /* Gender.h */,
+				0DC07B6A21FAC98400841A7B /* Date.h */,
+				0DC07B6B21FAC98400841A7B /* Date.m */,
+				0DC07B8A21FAF2AE00841A7B /* Author.h */,
+				0DC07B8B21FAF2AE00841A7B /* Author.m */,
 			);
 			path = Practise02;
 			sourceTree = "<group>";
@@ -118,7 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC07B6C21FAC98400841A7B /* Date.m in Sources */,
+				0DC07B6821FAC45A00841A7B /* Book.m in Sources */,
+				0DC07B8C21FAF2AE00841A7B /* Author.m in Sources */,
 				0DC07B5A21FAC3D200841A7B /* main.m in Sources */,
+				0DC07B6221FAC3E400841A7B /* Human.m in Sources */,
+				0DC07B6521FAC42E00841A7B /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
